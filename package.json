@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "Aprendendo JS - ES6",
+  "babel":{
+    "presets": ["env"]
+  },
+  "main": "gameBabel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel gameBabel.js --watch --out-file game.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanPHP7/game-js"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
