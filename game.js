@@ -1,11 +1,13 @@
 'use strict';
 
-//Adicionando aspasna na string usando contra barra//
-var nome = '\"Daniel\"';
-var nome1 = "Carlos";
-document.write(nome1, '<br>', nome, '<br>');
-
-var nome2 = '\'Matheus\'';
-
-document.write(nome2);
-////////////////////////////////////////////////////
+///////MANIPULAÇÃO//DE//STRING//////////////////
+var fname = 'Carlos ';
+var mname = ' Daniel';
+var lname = ' S. Oliveira';
+var all = name + mname + lname;
+document.write(all.length + '<br>');
+document.write(all.charAt(1) + '<br>');
+document.write(all.substring(0, 3) + '<br>');
+document.write(all.toLowerCase() + '<br>');
+document.write(all.toUpperCase() + '<br>');
+/////////////////////////////////////////////////

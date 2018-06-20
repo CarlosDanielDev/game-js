@@ -1,10 +1,11 @@
-
-//Adicionando aspasna na string usando contra barra//
-let nome = '\"Daniel\"';
-let nome1 = "Carlos";
-document.write(nome1, '<br>', nome, '<br>');
-
-let nome2 = '\'Matheus\'';
-
-document.write(nome2);
-////////////////////////////////////////////////////
+///////MANIPULAÇÃO//DE//STRING//////////////////
+let fname = 'Carlos ';
+let mname = ' Daniel';
+let lname = ' S. Oliveira';
+let all = name + mname + lname;
+document.write(all.length + '<br>');
+document.write(all.charAt(1) + '<br>');
+document.write(all.substring(0, 3) + '<br>');
+document.write(all.toLowerCase() + '<br>');
+document.write(all.toUpperCase() + '<br>');
+/////////////////////////////////////////////////

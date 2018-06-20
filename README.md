@@ -1,1 +1,1 @@
-# game-js
+# GameBabel-js
