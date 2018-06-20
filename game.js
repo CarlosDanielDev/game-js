@@ -1,14 +1,26 @@
 'use strict';
 
-////////WHILE JS - ES6/////////////
-var i = 0;
-while (i <= 10) {
-	// document.write(i + '</br>');
-	i++;
+///////////// Condições em JS - ES6 ////////////////
+if (3 === 3) {
+	document.write('é igual' + '</br>');
 }
-//////////FOR - JS - ES6 ///////
-var lista = ['Abacate', 'Leite', 'Maçã'];
 
-for (var _i = 0; _i < lista.length; _i++) {
-	document.write(lista[_i] + '<br>');
+var idade = 100;
+if (idade >= 19) {
+	document.write('Você Tem ' + idade + ' Anos de Idade' + '<br>');
+} else if (idade >= 18) {
+	document.write('Maior de Idade' + '<br>');
+} else {
+	document.write('Menor De Idade' + '<br>');
 }
+
+////////////Combinando Loops com condições ///////////
+
+for (var i = 0; i < 10; i++) {
+	if (i === 3) {
+		//	break; para o laço na hora
+		continue; // continua o laço ate o fim
+	}
+	document.write(i + '</br>');
+}
+//////////////////////////////////////
