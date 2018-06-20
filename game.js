@@ -1,13 +1,19 @@
 'use strict';
 
-////////////////OPERADORES LÓGICOS /////////////
-document.write(5 > 10 && (5 < 10) + '</br>'); //return False
-document.write(11 > 10 && (5 < 10) + '</br>'); //return True
-document.write(5 > 10 || (5 < 10) + '</br>'); //return True
-document.write(!(5 > 10) + '</br>'); //return True
-document.write(!(11 > 10) + '</br>'); //return False
-///////////////OPERADOR TERNARIO/////////////////
-document.write((5 > 10 ? 'é maior' : 'é menor') + '</br>'); // é menor
-document.write((true ? 'é maior' : 'é menor') + '</br>'); // é maior
-document.write((false ? 'é maior' : 'é menor') + '</br>'); // é menor
-////////////////////////////////////////////////
+//////////////ARRAY/////////////////////
+var lista = ['maçã', 'leite', 'açucar'];
+document.write(lista.length + '<br>'); // return 3
+document.write(lista[2] + '</br>'); // return 3º indice do array listas
+///////Mudar Indice especifico do array/////
+var array = ['Edinei', 'Matheus', 'Daniel'];
+array[0] = 'Luan';
+document.write(array + '<br>'); // Indice 0 retorna Luan ao Inves de Edinei
+////////Excluindo valores do array//////////////////////////
+var array2 = ['Leo', 'Wall', 'Yago'];
+array2.pop(); // remove o ultimo indice do array
+array2.shift(); // remove o primeir indice do array
+array2.unshift('Mara'); // adiciona um indice no começo do array
+array2.push('Luciana'); // adiciona um indice no final do array
+array2.splice(1, 1); // remove um indice do array, primeiro parametro
+document.write(array2 + '<br>');
+////////////////////////////////////////////
