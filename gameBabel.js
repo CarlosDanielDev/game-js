@@ -1,19 +1,11 @@
-/////////////BOOLEANOS - JS////////////////
-document.write((5 > 10) + '</br>'); // return False
-document.write((5 < 10) + '</br>'); // return True
-document.write((5 >= 10) + '</br>'); // return False
-document.write((5 <= 10) + '</br>'); // return True
-///////////OPERADORES///ARITIMETICOS//////
-document.write((5 * '10') + '</br>'); // return 50
-document.write((5 + '10') + '</br>'); // return 510
-document.write((11 > '10') + '</br>'); // return True
-/////////OPERADORES DE IGUALDADE/////////////
-document.write((10 == 10) + '</br>'); // retun True
-document.write((10 == '10') + '</br>'); // return True
-document.write((10 != 10) + '</br>'); // return False
-document.write((10 != '10') + '</br>'); // return False
-document.write((10 === 10) + '</br>'); // return True
-document.write((10 === '10') + '</br>'); // return False
-document.write((10 !== '10') + '</br>'); // return True
-document.write((10 !== 10) + '</br>'); // return False
-///////////////////////////////////////////////
+////////////////OPERADORES LÓGICOS /////////////
+document.write((5 > 10) && (5 < 10) + '</br>'); //return False
+document.write((11 > 10) && (5 < 10) + '</br>'); //return True
+document.write((5 > 10) || (5 < 10) + '</br>'); //return True
+document.write(!(5 > 10) + '</br>'); //return True
+document.write(!(11 > 10) + '</br>'); //return False
+///////////////OPERADOR TERNARIO/////////////////
+document.write((5 > 10 ? 'é maior' : 'é menor') + '</br>'); // é menor
+document.write((true ? 'é maior' : 'é menor') + '</br>'); // é maior
+document.write((false ? 'é maior' : 'é menor') + '</br>'); // é menor
+////////////////////////////////////////////////
