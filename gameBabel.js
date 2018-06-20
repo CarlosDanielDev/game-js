@@ -1,15 +1,10 @@
-//////////////// Loop Switch JS - ES6 ////////////
-let idade = 17;
-
-switch(idade){
-	case 17 :
-		document.write('Tem 17' + '<br>');
-		break;
-	case 18:
-		document.write('Tem 18' + '<br>');
-		break;
-	default:
-		document.write('ERROR' + '<br>');
-		break;
-}
-////////////////////////////////////////////////
+/////// OBJETOS JS - ES6 ////////
+let caneta = {tipo:'esferografica'};//passando os atributos de 
+caneta.cor = 'azul';
+caneta.marca = 'Site BLINDADO';
+let propriedade = 'marca';
+caneta[propriedade] = 'faber';
+caneta['cor da caneta'] = 'vermelho';
+document.write(caneta.marca);// return faber
+document.write(caneta['cor da caneta']); // return vermelho
+////////////////////////////////
