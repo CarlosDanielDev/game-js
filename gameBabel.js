@@ -1,10 +1,14 @@
-/////// OBJETOS JS - ES6 ////////
-let caneta = {tipo:'esferografica'};//passando os atributos de 
-caneta.cor = 'azul';
-caneta.marca = 'Site BLINDADO';
-let propriedade = 'marca';
-caneta[propriedade] = 'faber';
-caneta['cor da caneta'] = 'vermelho';
-document.write(caneta.marca);// return faber
-document.write(caneta['cor da caneta']); // return vermelho
-////////////////////////////////
+// let caneta = {};
+// let prop = 'marca';
+// caneta.tipo = 'ponta fina';
+// caneta['marca da caneta'] = 'castel';
+
+//document.write(caneta.marca);
+
+let lanterna = {
+	light: 'white',
+	minhaCor: function(){
+		return 'Luz da lanterna = ' +this.light;
+	}
+};
+document.write(lanterna.minhaCor());
