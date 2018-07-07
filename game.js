@@ -1,16 +1,32 @@
 'use strict';
 
-// let caneta = {};
-// let prop = 'marca';
-// caneta.tipo = 'ponta fina';
-// caneta['marca da caneta'] = 'castel';
+//formas de escrever funções
+function quadrado(num) {
+	return num * num;
+}
+var celular = 'samsung';
+document.write(quadrado(5) + '<br>');
+document.write(quadrado(7) + '<br>');
+document.write(celular + '<br>');
 
-//document.write(caneta.marca);
+function soma(num, num2) {
+	return num + num2;
+}
 
-var lanterna = {
-	light: 'white',
-	minhaCor: function minhaCor() {
-		return 'Luz da lanterna = ' + this.light;
-	}
+document.write(soma(45, 78) + '<br>');
+
+var mult = function mult(num1, num2) {
+	return num1 * num2;
 };
-document.write(lanterna.minhaCor());
+document.write(mult(34, 6) + '<br>');
+
+var quadrados = function quadrados(num) {
+	return num * num;
+};
+document.write(quadrados(6) + '<br>');
+
+var somaEs6 = function somaEs6(num1, num2) {
+	return num1 + num2;
+};
+
+document.write(somaEs6(56, 98) + '<br>');
